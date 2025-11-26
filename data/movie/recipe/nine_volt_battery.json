@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ICI",
+        "RTR",
+        "IcI"
+    ],
+    "key": {
+        "I": "minecraft:iron_ingot",
+        "C": "minecraft:comparator",
+        "R": "minecraft:redstone",
+        "T": "minecraft:ghast_tear",
+        "c": "minecraft:copper_ingot"
+    },
+    "result": {
+        "id": "minecraft:snort_pottery_sherd",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "movie/nine_volt_battery"
+                ]
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:custom_name": {
+                "text": "Nine-Volt Battery",
+                "italic": false,
+                "color": "blue"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "movie/nine_volt_battery",
+        "model": {
+          "type": "minecraft:model",
+          "model": "movie:item/nine_volt_battery"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/snort_pottery_sherd"
+    }
+  }
+}

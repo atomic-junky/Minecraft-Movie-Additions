@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "Its",
+        "src",
+        "INI"
+    ],
+    "key": {
+        "I": "minecraft:iron_ingot",
+        "t": "minecraft:shelter_pottery_sherd",
+        "s": "minecraft:stick",
+        "r": "minecraft:sheaf_pottery_sherd",
+        "c": "minecraft:skull_pottery_sherd",
+        "N": "minecraft:snort_pottery_sherd"
+    },
+    "result": {
+        "id": "minecraft:scrape_pottery_sherd",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "movie/potato_launcher"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:custom_name": {
+                "text": "Potato Launcher",
+                "italic": false,
+                "color": "blue"
+            }
+        }
+    }
+}

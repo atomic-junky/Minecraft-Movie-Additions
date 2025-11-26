@@ -1,0 +1,89 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  N",
+        " N ",
+        "N  "
+    ],
+    "key": {
+        "N": "minecraft:netherite_ingot"
+    },
+    "result": {
+        "id": "minecraft:prize_pottery_sherd",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "movie/malgoshas_staff"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:attack_range": {
+                "min_reach": 1.0,
+                "max_reach": 4.0,
+                "hitbox_margin": 0.25
+            },
+            "minecraft:max_damage": 3246,
+            "minecraft:weapon": {},
+            "attribute_modifiers": [
+                {
+                    "type": "attack_damage",
+                    "slot": "mainhand",
+                    "id": "tasty_supplies:diamond_knife_damage",
+                    "amount": 5.0,
+                    "operation": "add_value",
+                    "display": {
+                        "type": "override",
+                        "value": {
+                        "type": "translatable",
+                        "translate": "attribute.modifier.equals.0",
+                        "fallback": "%s %s",
+                        "color": "dark_green",
+                        "with": [
+                            {
+                            "text": " 5"
+                            },
+                            {
+                            "type": "translatable",
+                            "translate": "attribute.name.attack_damage",
+                            "fallback": "Attack Damage"
+                            }
+                        ]
+                        }
+                    }
+                },
+                {
+                    "type": "attack_speed",
+                    "slot": "mainhand",
+                    "id": "tasty_supplies:diamond_knife_speed",
+                    "amount": 3.0,
+                    "operation": "add_value",
+                    "display": {
+                        "type": "override",
+                        "value": {
+                        "type": "translatable",
+                        "translate": "attribute.modifier.equals.0",
+                        "fallback": "%s %s",
+                        "color": "dark_green",
+                        "with": [
+                            {
+                            "text": " 3.0"
+                            },
+                            {
+                            "type": "translatable",
+                            "translate": "attribute.name.attack_speed",
+                            "fallback": "Attack Speed"
+                            }
+                        ]
+                        }
+                    }
+                }
+            ],
+            "minecraft:custom_name": {
+                "text": "Malgosha's Staff",
+                "italic": false,
+                "color": "blue"
+            }
+        }
+    }
+}

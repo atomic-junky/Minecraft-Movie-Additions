@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BTH",
+        "QRt",
+        "PSr"
+    ],
+    "key": {
+        "B": "minecraft:blaze_rod",
+        "T": "minecraft:totem_of_undying",
+        "H": "minecraft:heart_of_the_sea",
+        "Q": "minecraft:quartz",
+        "R": "minecraft:end_rod",
+        "t": "minecraft:ghast_tear",
+        "P": "minecraft:ender_pearl",
+        "S": "minecraft:nether_star",
+        "r": "minecraft:redstone"
+    },
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "count": 1,
+        "components": {
+            "minecraft:custom_model_data": {
+                "strings": [
+                    "movie/orb_of_dominance"
+                ]
+            },
+            "minecraft:max_stack_size": 16,
+            "minecraft:custom_name": {
+                "text": "Orb of Dominance",
+                "italic": false,
+                "color": "dark_purple"
+            }
+        }
+    }
+}

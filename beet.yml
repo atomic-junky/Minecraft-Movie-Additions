@@ -1,0 +1,21 @@
+version: 0.0.1
+author: OneShrimpADay
+
+data_pack:
+  name: "movie-datapack"
+  description: "Minecraft movie data pack."
+  pack_format: 88
+  min_format: 80
+  max_format: [88, 0]
+  supported_formats: [80, 88]
+  load: "."
+resource_pack:
+  name: "movie-resource-pack"
+  description: "Minecraft movie texture pack."
+  pack_format: 69
+  min_format: 63
+  max_format: [69, 0]
+  supported_formats: [63, 69]
+  load: "."
+
+output: build

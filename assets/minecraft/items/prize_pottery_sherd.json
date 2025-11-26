@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "movie/malgoshas_staff",
+        "model": {
+          "type": "minecraft:model",
+          "model": "movie:item/malgoshas_staff"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/prize_pottery_sherd"
+    }
+  }
+}

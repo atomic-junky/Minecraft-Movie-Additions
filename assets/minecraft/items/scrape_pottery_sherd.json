@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "movie/potato_launcher",
+        "model": {
+          "type": "minecraft:model",
+          "model": "movie:item/potato_launcher"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/scrape_pottery_sherd"
+    }
+  }
+}

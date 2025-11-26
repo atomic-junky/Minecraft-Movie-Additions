@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "movie/tater_tot",
+        "model": {
+          "type": "minecraft:model",
+          "model": "movie:item/tater_tot"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/shelter_pottery_sherd"
+    }
+  }
+}
